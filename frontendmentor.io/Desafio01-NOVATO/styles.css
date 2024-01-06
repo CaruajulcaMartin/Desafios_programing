@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    background: #f4d04e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;;
+    top: 50px;
+}
+
+.container {
+    border: 2px solid #121212;
+    border-radius: 25px;
+    background: #ffffff;
+    width: 370px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 10px 10px #121212;
+    padding: 24px;
+}
+
+.container-img{
+    background: none;
+    width: 370px;
+}
+
+.container-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.container-info{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.learning-btn{
+    background: none;
+}
+
+.learning-btn, a{
+    text-decoration: none;
+    background-color: #f4d04e;
+    width: 70px;
+    gap: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: #121212;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: none;
+}
+
+.container-info .info .fecha{
+    font-size: 16px;
+    font-style: none;
+    font-weight: 600;
+    background: none;
+}
+
+.container-info .info .title{
+    font-size: 24px;
+    font-weight: 800;
+    background: none;
+}
+
+.title:hover{
+    color: #f4d04e;
+    cursor: pointer;
+}
+
+.container-info .info .description{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+    background: none;
+}
+
+.person{
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.person .avatar{
+    background: none;
+    width: 50px;
+    height: 50px;
+}
+
+.person .nombre{
+    background: none;
+    font-style: none;
+    font-weight: 800;
+}
